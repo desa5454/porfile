@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        html, body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    
+
+
+<nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Desa</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#Home">Home</a></li>
+          <li><a class="dropdown-item" href="#About">About</a></li>
+          <li><a class="dropdown-item" href="#Service">Service</a></li>
+          <li><a class="dropdown-item" href="#Portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--navbar end-->
+
+<!--home section start-->
+<section class="home py-5" id="Home">
+    <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6  mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="desa.jpg" class="rounded-circle" style="width: 400px; height: 400px;" alt="profile img">
+
+
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class="text-muted mb-1">Hello I'm</p>
+                    <h1 class="text-danger text-uppercase fs-1 fw-italic">web designer</h1>
+                    <h2 class="fs-4"> Desalegn G</h2>
+                    <p class="mt-4 text-muted">I am a third-year Computer Science student at American College of Technology, passionate about software development, problem-solving, and emerging technologies. 
+                        With a strong foundation in programming, data structures, and algorithms. 
+                        I am constantly exploring new innovations in web development, AI, and cybersecurity. 
+                        I am always eager to learn, adapt, and contribute to the ever-evolving world of technology. 
+                        My goal is to become a skilled software developer, building impactful applications that make a difference.  
+             </p>
+             <a href="#Portfolio" class="btn btn-danger px-3 mt-3">My work</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--home section end-->
+
+
+<!--about section start-->
+<section class="about py-5" id="About">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">About me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+               <div class="about-text">
+                <h3 class ="fs-4 mb-3">"I'm a third-year Computer Science student who's getting into fullstack development. 
+                   "
+                </h3>
+                <p class="text-muted">I'm a third-year Computer Science student who's getting into fullstack development. 
+                    I really enjoy figuring out how to create simple, clean designs that people can actually use without any frustration.
+                     I'm also learning new tools and techniques along the way to get better at what I do.</p>
+
+            </div>
+            <div class="row text-center text-uppercase my-3">
+                <div class="col-sm-4">
+                    <div class="fact-item">
+                        <h4 class ="fs-1 fw-bold">3</h4>
+                        <p class="text-muted"> Major project completed</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="fact-item">
+                        <h4 class ="fs-1 fw-bold">10</h4>
+                        <p class="text-muted">Mini Projects completed</p>
+                    </div>
+                </div>
+
+               
+
+
+
+            </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex align-items-center">
+                        <a href="#" class="btn px-3 btn-danger me-5" onclick="showAlert()">Download CV</a>
+
+                        <script>
+                            function showAlert() {
+                                alert("I will send you my CV through email.");
+                            }
+                        </script>
+                        
+                        <div class="social-links">
+                            <a href=" https://t.me/Yotode1" class="text-dark me-2"><i class = " fab fa-telegram"></i></a>
+                             <a href=" https://github.com/desa5454" class="text-dark me-2"><i class = "fab fa-github"></i></a>
+                            <a href=" https://www.linkedin.com/in/desalegn-gebre-544052335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-dark me-2"><i class = "fab fa-linkedin-in"></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                    
+            <div class="col-md-6 mt-5 mt-md-0">
+        <div class="skill-item mb-4">
+            <h3 class="fs-6">HTML</h3>
+            <div class="progress" role="progressbar" aria-label="HTML Progress" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                <div class="progress-bar bg-danger" style="width: 70%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress" role="progressbar" aria-label="CSS Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                <div class="progress-bar bg-danger" style="width: 50%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item mb-4">
+            <h3 class="fs-6">JavaScript</h3>
+            <div class="progress" role="progressbar" aria-label="JavaScript Progress" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                <div class="progress-bar bg-danger" style="width: 25%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item mb-4">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" role="progressbar" aria-label="Bootstrap Progress" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                <div class="progress-bar bg-danger" style="width: 51%"></div>
+            </div>
+        </div>
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--about section end-->
+
+<!-- service section start-->
+
+
+<section class="Service py-5" id="Service">
+    <div class =" container-lg py-4">
+            <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">What I Do</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center ">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger fs-2">
+                    <i class=" fas fa-code"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">web development</h3>
+                    <p class="text-muted">Building responsive, user-friendly websites with clean and efficient code</p>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 ">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger fs-2">
+                    <i class=" fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">creative design</h3>
+                    <p class="text-muted">Crafting visually appealing and intuitive designs that enhance user experience</p>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 ">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger fs-2">
+                    <i class=" fas fa-search"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">Analysis</h3>
+                    <p class="text-muted">Analyzing data and user behavior to inform better decision-making and solutions.</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- service section end-->
+
+<!--portfolio section start-->
+<section class="Portfolio bg-white py-5" id="Portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Latest works</h2>
+                </div>
+            </div>
+        </div>
+     
+        <div class="row">
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <video controls loop src="My Pong Game.mp4" class="w-100" alt="ping pong"></video>
+                    <h3 class="text-capitalized fs-5 my-2">Ping pong</h3>
+                   
+                </div>
+            </div>
+            
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="act.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalized fs-5 my-2">Act clone</h3>
+                    <p class="mb-4">
+                        <a href="https://desa5454.github.io/Act-clone/" class="text-danger text-decoration-none">Live demo</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="port.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalized fs-5 my-2">Portfolio</h3>
+                    <p class="mb-4">
+                        <a href="https://desa5454.github.io/new-portfolio/" class="text-danger text-decoration-none">Live demo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--portfolio section end-->
+<!--freelancer available section start-->
+
+
+<section class="freelancer-available py-5 bg-danger">
+<div class="container-ig py-4">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <p class="text-light fs-5">Do you have any project?</p>
+            <h2  class="fs-1 text-white mb-4">I'm available For freelancer Projects</h2>
+            <a href="#Contact" class="btn btn-outline-light">Hire me</a>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<!--freelancer available section end-->
+
+
+<!--contact section start-->
+
+<section class="Contact py-5 bg-white" id="Contact">
+    <div class="container-lg py-4">
+        <div class="justify-content-center">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-danger">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Email</h3>
+                        <p class="text-muted ">Desalenggebre888@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-danger">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">phone</h3>
+                        <p class="text-muted ">+251-946738764</p>
+                    </div>
+                </div> 
+
+                <div class="contact-item d-flex">
+                    <div class="icon fs-4 text-danger">
+                        <i class="fas fa-location"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">vist office</h3>
+                        <p class="text-muted ">4kilo ,Behind industry minster</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                            
+                                <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-danger px-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!--contact section end-->
+
+<!--footer start-->
+<footer class="footer border-top py-4">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="m-0 text-center text-muted">&copy;2025 desa</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--footer end-->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
